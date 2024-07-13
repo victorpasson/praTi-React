@@ -1,21 +1,20 @@
-import Header from "./components/Header/Header";
-import Main from "./components/Main/Main";
-import Footer from "./components/Footer/Footer";
-import "./App.css"
+import './App.css'
+import Counter from './components/Counter'
+import Mirror from './components/Mirror'
+import TodoList from './components/TodoList'
+import NavAbas from './components/NavAbas'
 
-const item = {
-  author: "Jaques",
-  favoriteBook: "Difícil"
-}
+function App() {
 
-const App = () => {
+
   return (
     <>
-      <Header/>
-      <Main props={item} />
-      <Footer props={{desenvolvedor: "João Victor", ano: "2024"}} />
+      <Counter/>
+      <Mirror/>
+      <TodoList/>
+      <NavAbas/>
     </>
-)
+  )
 }
 
-export default App;
+export default App
