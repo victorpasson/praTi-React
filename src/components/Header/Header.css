@@ -1,0 +1,35 @@
+* {
+    margin: 0;
+}
+
+header {
+    display: flex;
+    justify-content: space-around;
+    width: 100vw;
+    height: 72px;
+    background-color: #080808;
+}
+
+header h1 {
+    color: red;
+    align-self: center;
+}
+
+header ul {
+    display: flex;
+    gap: 15px;
+    list-style: none;
+    align-self: center;
+}
+
+header ul li a {
+    text-decoration: none;
+    color: #fff;
+    font-weight: 600;
+    font-size: 18px;
+    letter-spacing: 1px;
+}
+
+header ul li a:hover {
+    color: red;
+}
