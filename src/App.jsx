@@ -1,18 +1,17 @@
 import './App.css'
-import Counter from './components/Counter'
-import Mirror from './components/Mirror'
-import TodoList from './components/TodoList'
-import NavAbas from './components/NavAbas'
+//import NavegacaoAba from './components/NavegacaoAba'
+//import MyComponent from './components/ClassComponent'
+//import TimerComponent from './components/TimerComponent'
+//import FunctionComponent from './components/FunctionalComponent'
+//import User from './components/User'
+import Noticias from './components/Noticias'
 
 function App() {
 
 
   return (
     <>
-      <Counter/>
-      <Mirror/>
-      <TodoList/>
-      <NavAbas/>
+      <Noticias/>
     </>
   )
 }
