@@ -1,17 +1,13 @@
 import './App.css'
-//import NavegacaoAba from './components/NavegacaoAba'
-//import MyComponent from './components/ClassComponent'
-//import TimerComponent from './components/TimerComponent'
-//import FunctionComponent from './components/FunctionalComponent'
-//import User from './components/User'
-import Noticias from './components/Noticias'
+//import Form from './components/Forms'
+//import FormDois from './components/NewForm'
+import FormDesafio from './components/FormDesafio'
 
 function App() {
 
-
   return (
     <>
-      <Noticias/>
+      <FormDesafio/>
     </>
   )
 }
